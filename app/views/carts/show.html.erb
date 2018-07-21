@@ -1,5 +1,7 @@
 <section class="cart-show">
 
+  <% unless (cart.empty?) %>
+
   <header class="page-header">
     <h1>My Cart</h1>
   </header>
@@ -51,3 +53,9 @@
   </div>
 
 </section>
+
+<% else %>
+  <p>Looks like your cart is empty!</p>
+  <%= link_to "Home", root_path %>
+
+  <%end%>

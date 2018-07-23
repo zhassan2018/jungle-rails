@@ -2,6 +2,10 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+## Final Product
+!["Login page"](https://github.com/zhassan2018/w2d2/blob/master/docs/jungle.png)
+
+
 
 ## Setup
 
